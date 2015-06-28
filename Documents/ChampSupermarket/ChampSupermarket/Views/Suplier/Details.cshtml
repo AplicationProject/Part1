@@ -1,0 +1,63 @@
+﻿@model ChampSupermarket.Models.Suplier
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Suplier</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SuplierName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SuplierName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Adress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Adress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Phone)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductsSuplier)
+        </dt>
+        <dd>
+            <table class="table">
+                <tr>
+                    <th>Product ID</th>
+                    <th>Name Product</th>
+                </tr>
+                @foreach (var item in Model.ProductsSuplier)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ProductID)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NameProduct)
+                        </td>
+                    </tr>
+                }
+            </table>
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.SuplierID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
