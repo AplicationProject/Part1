@@ -8,6 +8,7 @@ using System.Web;
 using System.Web.Mvc;
 using ChampSupermarket.Models;
 using ChampSupermarket.DAL;
+using PagedList;
 
 namespace ChampSupermarket.Controllers
 {
@@ -16,9 +17,46 @@ namespace ChampSupermarket.Controllers
         private SupermarketContext db = new SupermarketContext();
 
         // GET: /Suplier/
-        public ActionResult Index()
+        public ActionResult Index(string sortOrder, string currentFilter, string searchString, int? page)
         {
-            return View(db.supliers.ToList());
+            if (searchString != null)
+            {
+                page = 1;
+            }
+            else
+            {
+                searchString = currentFilter;
+            }
+
+            ViewBag.CurrentFilter = searchString;
+            ViewBag.CurrentSort = sortOrder;
+            ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+            ViewBag.IDSortParm = String.IsNullOrEmpty(sortOrder) ? "Phone_desc" : "";
+            //ViewBag.DateSortParm = sortOrder == "Date" ? "date_desc" : "Date";
+            var supliers = from s in db.supliers
+                           select s;
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                supliers = supliers.Where(s => s.SuplierName.Contains(searchString));
+            }
+            switch (sortOrder)
+            {
+                case "name_desc":
+                    supliers = supliers.OrderByDescending(s => s.SuplierName);
+                    break;
+                case "Phone_desc":
+                    supliers = supliers.OrderBy(s => s.Phone);
+                    break;
+               /* case "date_desc":
+                    supliers = supliers.OrderByDescending(s => s.);
+                    break;*/
+                default:
+                    supliers = supliers.OrderBy(s => s.SuplierID);
+                    break;
+            }
+            int pageSize = 3;
+            int pageNumber = (page ?? 1);
+            return View(supliers.ToPagedList(pageNumber, pageSize));
         }
 
         // GET: /Suplier/Details/5

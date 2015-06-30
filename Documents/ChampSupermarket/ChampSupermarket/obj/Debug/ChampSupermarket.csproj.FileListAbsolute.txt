@@ -28,3 +28,37 @@ c:\users\עמית\documents\visual studio 2013\Projects\ChampSupermarket\ChampSu
 c:\users\עמית\documents\visual studio 2013\Projects\ChampSupermarket\ChampSupermarket\bin\EntityFramework.xml
 c:\users\עמית\documents\visual studio 2013\Projects\ChampSupermarket\ChampSupermarket\bin\EntityFramework.SqlServer.xml
 c:\users\עמית\documents\visual studio 2013\Projects\ChampSupermarket\ChampSupermarket\obj\Debug\ChampSupermarket.csprojResolveAssemblyReference.cache
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\ChampSupermarket.dll.config
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\ChampSupermarket.dll
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\ChampSupermarket.pdb
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\Antlr3.Runtime.dll
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\EntityFramework.dll
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\EntityFramework.SqlServer.dll
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\Newtonsoft.Json.dll
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\System.Web.Helpers.dll
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\System.Web.Mvc.dll
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\System.Web.Optimization.dll
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\System.Web.Razor.dll
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\System.Web.WebPages.Deployment.dll
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\System.Web.WebPages.dll
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\System.Web.WebPages.Razor.dll
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\WebGrease.dll
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\EntityFramework.xml
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\EntityFramework.SqlServer.xml
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\System.Web.Helpers.xml
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\System.Web.Mvc.xml
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\System.Web.Optimization.xml
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\System.Web.Razor.xml
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\System.Web.WebPages.xml
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\System.Web.WebPages.Deployment.xml
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\System.Web.WebPages.Razor.xml
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\Newtonsoft.Json.xml
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\Antlr3.Runtime.pdb
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\obj\Debug\ChampSupermarket.csprojResolveAssemblyReference.cache
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\obj\Debug\ChampSupermarket.dll
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\obj\Debug\ChampSupermarket.pdb
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\PagedList.dll
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\PagedList.Mvc.dll
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\PagedList.xml
+C:\Users\עמית\Source\Repos\Part1\Documents\ChampSupermarket\ChampSupermarket\bin\PagedList.Mvc.xml
